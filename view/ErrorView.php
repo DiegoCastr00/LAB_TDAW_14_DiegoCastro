@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html data-bs-theme="dark">
     <head>
         <meta charset="UTF-8">
         <title>Error</title>
@@ -17,14 +17,17 @@ and open the template in the editor.
     </head>
     <body>
 
-        <div class="container">
-                <h1>
+    <div class="d-flex align-items-center justify-content-center vh-100">
+        <div class="text-center row">
+            <div class="card text-bg-danger mb-3">
+            <h1>
                    No existen coincidencias con esos datos de búsqueda
                 </h1> 
-                <h5> <a href="../index.php"> Regresar</a></h5>
-               
+            </div>
+            <h5> <a href="../index.php"> Regresar</a></h5>
         </div>
-        
+    </div>
+
 		<!-- INCLUIR FORMULARIO RESERVACION-->
 
 
